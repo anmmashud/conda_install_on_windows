@@ -23,10 +23,18 @@ This guide provides step-by-step instructions for installing Anaconda on a Windo
 
    - After submitting your email, you will be directed to the download page.
    - On this page, you will see options for downloading either **Anaconda** or **Miniconda**.
-   - **Anaconda**: A comprehensive distribution that includes a wide range of pre-installed packages and tools.
-   - **Miniconda**: A minimal installer that includes only `conda`, Python, and a few essential packages, allowing you to install additional packages as needed.
 
-   **Recommendation**: If you prefer a ready-to-use environment with many packages included, choose **Anaconda**. If you prefer a lightweight installation and want to customize your environment by installing only the packages you need, choose **Miniconda**.
+   **Comparison Between Anaconda and Miniconda**:
+
+   | Feature                | Anaconda                                                                 | Miniconda                                                                 |
+   |------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+   | **Created and Published by** | Anaconda, Inc.                                                          | Anaconda, Inc.                                                          |
+   | **Includes conda**      | Yes                                                                      | Yes                                                                      |
+   | **Includes Anaconda Navigator** | Yes                                                                      | No                                                                       |
+   | **Number of Packages**  | Over 300                                                                 | Less than 70                                                              |
+   | **Install Space Required** | Approximately 4.4 GB                                                     | Approximately 480 MB                                                     |
+
+   **Recommendation**: If you prefer a ready-to-use environment with many packages included, choose **Anaconda**. If you prefer a lightweight installation and want to customize your environment by installing only the packages you need, choose **Miniconda**. :contentReference[oaicite:0]{index=0}
 
 4. **Download the Installer**
 
