@@ -53,12 +53,6 @@ This guide provides simple and effective instructions for installing Jupyter Not
    - After downloading the installer, double-click to run it.
    - Follow the on-screen instructions.
 
-4. **Recommended Installation Options**:
-   During the installation, you’ll see the following options:
-   - **Add Anaconda to my PATH environment variable**: Not recommended. 
-   - **Register Anaconda as my default Python**: Recommended.
-   - **Add shortcuts for Anaconda tools to Start Menu**: Recommended.
-
 ---
 
 ### Resolve Installation Issues (If Any)
