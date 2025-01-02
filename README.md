@@ -41,11 +41,44 @@ This guide provides step-by-step instructions for installing Anaconda on a Windo
    - Click on the appropriate installer for your system (e.g., Windows 64-bit).
    - The download will begin, and the installer file will be saved to your computer.
 
+5. **Run the Installer**
+
+   - Locate the downloaded installer file and double-click it to start the installation process.
+
+6. **Choose Installation Type**
+
+   - In the "Select Installation Type" window, you will see two options:
+     - **Just Me (Recommended)**: Installs Anaconda for the current user account.
+     - **All Users**: Installs Anaconda for all user accounts on the computer (requires Windows Administrator privileges).
+   - It is recommended to select **Just Me** unless you have a specific need for the **All Users** option. :contentReference[oaicite:1]{index=1}
+
+7. **Select Destination Folder**
+
+   - Choose a destination folder for the installation.
+   - Ensure that the installation directory path does not contain spaces or Unicode characters. :contentReference[oaicite:2]{index=2}
+
+8. **Customize Installation Options**
+
+   - In the "Advanced Installation Options" window, you will see several options:
+     - **Create shortcuts**: Selected by default. Creates Start Menu shortcuts for Anaconda Navigator, Spyder, Jupyter Notebook, and Anaconda Prompt. Deselecting this option skips creating these shortcuts.
+     - **Add Anaconda3 to my PATH environment variable**: Adds the path that contains the conda binaries to your PATH environment variable. Anaconda does not recommend selecting this option, as it can lead to conflicts with other software. :contentReference[oaicite:3]{index=3}
+     - **Register Anaconda3 as my default Python 3.12**: Registers the Python package in this install as the default Python for programs like VSCode, PyCharm, etc.
+     - **Clear the package cache upon completion**: Runs `conda clean --all --force-pkgs-dirs` after the install finishes.
+   - It is recommended to leave the default selections as they are unless you have specific requirements.
+
+9. **Begin Installation**
+
+   - Click **Install** to begin the installation process.
+   - The installation might take a few minutes to complete.
+   - Click **Show details** to view the packages being installed.
+
+10. **Complete Installation**
+
+    - Click **Next** twice, then click **Finish** to close the installer.
+
 ## Next Steps
 
-Once the download is complete, you can proceed with the installation process. Follow the on-screen instructions provided by the installer to complete the installation.
-
-For detailed instructions and troubleshooting, refer to the [Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
+Once the installation is complete, you can proceed with using Anaconda. For detailed instructions and troubleshooting, refer to the [Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
 
 ## Additional Resources
 
